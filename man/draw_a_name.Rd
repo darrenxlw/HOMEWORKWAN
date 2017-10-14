@@ -2,16 +2,22 @@
 % Please edit documentation in R/draw_a_name.R
 \name{draw_a_name}
 \alias{draw_a_name}
-\title{Plot the development of first names in France}
+\title{Draw the development of first names in France since 1900}
 \usage{
-draw_a_name(name)
+draw_a_name(the_name, the_sex)
 }
 \arguments{
-\item{name}{}
+\item{the_name}{a character}
+
+\item{the_sex}{a character}
+}
+\value{
+The plot of names
 }
 \description{
-Plot the development of first names in France
+Draw the development of first names in France since 1900
 }
 \examples{
+draw_a_name("Vincent", "M")
 
 }
