@@ -1,8 +1,8 @@
-#' Title
+#' Plot the development of first names in France
 #'
 #' @param name
 #'
-#' @import prenoms
+#' @import dplyr
 #'
 #' @return
 #' @export
@@ -11,5 +11,5 @@
 #'
 
 draw_a_name <- function(name){
-  return(prenoms)
+  return(iris)
 }
