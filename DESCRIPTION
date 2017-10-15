@@ -1,11 +1,10 @@
 Package: HOMEWORKWAN
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Package for R Homework
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Darren Wan
+Maintainer: Darren Wan <darren-xiao-li.wan@polytechnique.edu>
+Description: The package includes the functions save_as_csv, my_csv_reader, multi_excel, draw_names, draw_a_name, which perform what their name implies.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -14,5 +13,7 @@ Imports: dplyr,
     prenoms,
     ggthemes,
     assertthat,
-    readxl
+    readxl,
+    dygraphs,
+    tidyr
 RoxygenNote: 6.0.1

@@ -8,7 +8,7 @@
 #' @import ggthemes
 #' @import assertthat
 #'
-#' @return The plot of names
+#' @return The ggplot of names
 #' @export
 #'
 #' @examples
