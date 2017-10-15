@@ -1,0 +1,36 @@
+---
+title: "HOMEWORKWAN"
+author: "Darren Wan"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Homework for R class MAP536.
+
+```{r}
+library(HOMEWORKWAN)
+```
+
+
+##Functions:
+
+The `draw_a_name` function takes a name and gender as input and plots the development of the name in France.
+
+```{r, fig.show='hold'}
+draw_a_name("Vincent","M")
+```
+
+Similarly, `draw_names` and `draw_names_dygraph` are able to plot the history of multiple names at the same time.
+
+```{r, fig.show='hold'}
+draw_names(c("Vincent","Diane"))
+draw_names_dygraph(c("Vincent","Diane"))
+```
+
+---
+
+`multi_excel` takes a string of a xlsx file including its path and reads the sheets into a list object. `my_csv_reader` puts all csv files in a directory as dataframes into a list. `save_as_csv(df,file_name)` takes a dataframe as input and saves into under a given name and path.
