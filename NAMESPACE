@@ -2,6 +2,7 @@
 
 export(draw_a_name)
 export(draw_names)
+export(my_csv_reader)
 import(assertthat)
 import(dplyr)
 import(ggplot2)
