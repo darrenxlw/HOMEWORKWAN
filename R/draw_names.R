@@ -24,12 +24,6 @@ draw_names <- function(name_vector){
     ggplot(aes(x=year,y=n, color=name)) +
     geom_line() +
     theme_gdocs()
-  # tmp <- prenoms::prenoms %>%
-  #   filter(name %in% name_vector) %>%
-  #   group_by(year,name) %>%
-  #   summarize(n=sum(n)) %>%
-  #   spread(key=name,value=n) %>%
-  #   dygraph()
 
   return(tmp)
 }
