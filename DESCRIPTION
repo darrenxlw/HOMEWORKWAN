@@ -13,5 +13,6 @@ Imports: dplyr,
     ggplot2,
     prenoms,
     ggthemes,
-    assertthat
+    assertthat,
+    readxl
 RoxygenNote: 6.0.1

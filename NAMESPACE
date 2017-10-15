@@ -2,9 +2,12 @@
 
 export(draw_a_name)
 export(draw_names)
+export(multi_excel)
 export(my_csv_reader)
+export(save_as_csv)
 import(assertthat)
 import(dplyr)
 import(ggplot2)
 import(ggthemes)
 import(prenoms)
+import(readxl)
