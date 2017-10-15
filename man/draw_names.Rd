@@ -2,13 +2,19 @@
 % Please edit documentation in R/draw_names.R
 \name{draw_names}
 \alias{draw_names}
-\title{Title}
+\title{Draw the development of multiple first names in France since 1900}
 \usage{
 draw_names(name_vector)
 }
 \arguments{
-\item{name_vector}{}
+\item{name_vector}{vector of names to be drawn}
+}
+\value{
+The plot of names
 }
 \description{
-Title
+Draw the development of multiple first names in France since 1900
+}
+\examples{
+draw_names(c("Diane","Vincent"))
 }
