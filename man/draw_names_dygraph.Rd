@@ -10,11 +10,11 @@ draw_names_dygraph(name_vector)
 \item{name_vector}{vector of names to be drawn}
 }
 \value{
-The plot of names
+dygraph plot of the names
 }
 \description{
 Draw the development of multiple first names in France since 1900 using dygraph
 }
 \examples{
-draw_names(c("Diane","Vincent"))
+draw_names_dygraph(c("Diane","Vincent"))
 }

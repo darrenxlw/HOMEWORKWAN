@@ -10,7 +10,7 @@ draw_names(name_vector)
 \item{name_vector}{vector of names to be drawn}
 }
 \value{
-The plot of names
+The ggplot of names
 }
 \description{
 Draw the development of multiple first names in France since 1900

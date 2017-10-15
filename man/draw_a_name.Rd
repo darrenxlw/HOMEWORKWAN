@@ -12,7 +12,7 @@ draw_a_name(the_name, the_sex)
 \item{the_sex}{a character}
 }
 \value{
-The plot of names
+The ggplot of the name
 }
 \description{
 Draw the development of first names in France since 1900

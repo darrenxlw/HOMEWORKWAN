@@ -15,5 +15,6 @@ Imports: dplyr,
     assertthat,
     readxl,
     dygraphs,
-    tidyr
+    tidyr,
+    utils
 RoxygenNote: 6.0.1

@@ -1,3 +1,4 @@
+utils::globalVariables(c("name","year"))
 #' Draw the development of multiple first names in France since 1900 using dygraph
 #'
 #' @param name_vector vector of names to be drawn
@@ -13,7 +14,6 @@
 #'
 #' @examples
 #' draw_names_dygraph(c("Diane","Vincent"))
-
 draw_names_dygraph <- function(name_vector){
   assert_that(is.character(name_vector))
 

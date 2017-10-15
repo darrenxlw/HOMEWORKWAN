@@ -3,6 +3,8 @@
 #' @param dir_path directoy where the csv files are read
 #'
 #' @import assertthat
+#' @importFrom utils read.csv
+#' @importFrom utils write.csv
 #'
 #' @return a list of dataframes made up of csv
 #' @export

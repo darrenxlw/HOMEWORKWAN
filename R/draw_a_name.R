@@ -1,3 +1,4 @@
+utils::globalVariables(c("sex","name","year"))
 #' Draw the development of first names in France since 1900
 #'
 #' @param the_name a character
@@ -17,6 +18,7 @@
 #'
 
 draw_a_name <- function(the_name, the_sex){
+  utils::globalVariables
   assert_that(the_sex %in% c("M", "F"))
   assert_that(is.string(the_name))
 
